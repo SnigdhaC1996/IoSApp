@@ -9,7 +9,7 @@ import SwiftUI
 
 enum Emoji: String, CaseIterable {
     
-    case 😜,🥳,🤩,🤨 ,🤓,😎
+    case 😜,🥳,🤩,🤨 ,🤓,😎, 😔, 🥶
     
     
 }
@@ -28,7 +28,7 @@ struct ContentView: View {
                         }
                     }
                     
-                .pickerStyle(.wheel)
+                .pickerStyle(.segmented)
                 
                 }
             .navigationTitle("Emoji Lovers!")
